@@ -7,12 +7,13 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Ejerecicio 1");
-        int num1;
-        int num2;
-        System.out.println("dime 2 valores la base y la altura de un rectangulo");
-        Scanner sc= new Scanner(System.in);
-        num1 = sc.nextInt();
-        num2 = sc.nextInt();
-        System.out.println(" Tu numero es " + ((num1 * 2) + (num2 * 2)));
+        double radio;
+        System.out.println("Dime tu radio para hacer la circunferencia ");
+        Scanner sc = new Scanner (System.in);
+        radio = sc.nextDouble();
+        double a= (Math.PI * Math.pow(radio,2));
+        System.out.println("tu circunferencia es " + a);
+
     }
-}
+
+    }
