@@ -22,6 +22,16 @@ public class Main {
         num2 = sd.nextInt();
         System.out.println(" Tu numero es " + ((num1 * 2) + (num2 * 2)));
 
+        System.out.println("que nota has sacado?");
+        int nota;
+        Scanner se = new Scanner(System.in);
+        nota = se.nextByte();
+        if (nota < 5)
+            System.out.println("Has suspendido");
+        else
+            System.out.println("Has aprobado");
+
+
     }
 
     }
