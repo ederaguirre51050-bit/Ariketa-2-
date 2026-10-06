@@ -14,6 +14,14 @@ public class Main {
         double a= (Math.PI * Math.pow(radio,2));
         System.out.println("tu circunferencia es " + a);
 
+        int num1;
+        int num2;
+        System.out.println("dime 2 valores la base y la altura de un rectangulo");
+        Scanner sd= new Scanner(System.in);
+        num1 = sd.nextInt();
+        num2 = sd.nextInt();
+        System.out.println(" Tu numero es " + ((num1 * 2) + (num2 * 2)));
+
     }
 
     }
